@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YsK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleGpt.css">
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+
+</head>
+<body style="background-color: black;">
+    <canvas id="myCanvas" style="border:3px solid #7A0606;"></canvas>
+
+    <div class="clock" id="clock"></div> <!-- Clock div -->
+    <div class="draggable-rectangle" id="draggableRectangle"></div>  <!--Draggable rectangle -->
+
+    <div class="button-container">
+        <button class="button" onclick="dibujador()">(0)</button>
+        <button class="button" onclick="dibujador()">A--B</button>
+        <button class="button" onclick="dibujador()">#</button>
+        <button class="button" onclick="dibujador()">|T-T|</button>
+        <button class="button" onclick="dibujador()">(=/=)</button>
+        <button class="button" onclick="dibujador()">/\</button>
+        <button class="button" onclick="dibujador()">¬"T</button>
+        <button class="button" onclick="Borrador()">x</button>
+        <button class="button" onclick="resetCanvas()">Reset</button>
+        <button class="button" onclick="zoomIn()">+</button>
+        <button class="button" onclick="zoomOut()">-</button>
+    </div>
+
+<!-- New square with buttons -->
+<div class="button-container2">
+    <button class="button">1</button>
+    <button class="button">2</button>
+    <button class="button">3</button>
+    <button class="button">4</button>
+    <button class="button">5</button>
+    <button class="button">6</button>
+    <button class="button">7</button>
+    <button class="button">8</button>
+    <button class="button">9</button>
+</div>
+
+    <!-- Fullscreen button -->
+    <button class="fullscreen-button" onclick="toggleFullscreen()">[ ]</button>
+
+    <script src="g4pt.js"></script>
+    <script src="Fs.js"></script> 
+
+</body>
+</html>
